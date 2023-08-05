@@ -70,11 +70,11 @@ function App() {
           step={STEP}
           value={cantidad}
           />
-          <p className="text-center my-10 text-5xl font-extrabold text-indigo-600">
+          <p className="text-center my-10 text-5xl font-extrabold text-green-800">
           {formatearDinero( cantidad) }
           </p>
           <h2 className="text-2xl font-extrabold text-gray-500 text-center">
-              Elige un <span className="text-indigo-600">Plazo</span> a Pagar
+              Elige un <span className="text-green-800">Plazo</span> a Pagar
           </h2>
           <select className="mt-5 w-full p-2 bg-white border border-gray-300 rounded-lg text-center text-xl 
           font-bold text-gray-500"
@@ -87,7 +87,7 @@ function App() {
 
           <div className="my-5 space-y-3 bg-gray-50 p-5">
             <h2 className="text-2xl font-extrabold text-gray-500 text-center">
-                Resumen <span className="text-indigo-600">de Pagos</span>
+                Resumen <span className="text-green-800">de Pagos</span>
             </h2>
 
             <p className="text-xl text-gray-500 text-center font-bold">{ meses } Meses </p>
